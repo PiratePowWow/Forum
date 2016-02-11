@@ -2,7 +2,13 @@
  * Created by PiratePowWow on 2/11/16.
  */
 public class Post {
-    String text;
-    String author;
     int replyId;
+    String author;
+    String text;
+
+    public Post(int replyId, String author, String text) {
+        this.replyId = replyId;
+        this.author = author;
+        this.text = text;
+    }
 }
